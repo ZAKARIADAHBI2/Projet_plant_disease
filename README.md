@@ -208,11 +208,13 @@ matplotlib
 seaborn
 scikit-learn
 opencv-python
-
+```
 👨‍💻 Author : Zakaria Dahbi
+///////////
 🎓 Master’s in Computer Science & Artificial Intelligence — Université Ibn Tofail
+////////////
 💡 Passionate about AI, Machine Learning & Intelligent Systems
-
+///////////
 📜 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this code with proper attribution.
