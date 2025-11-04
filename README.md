@@ -80,7 +80,7 @@ Copier le code
 
 ### 🧩 1. Custom CNN (Baseline)
 
-python
+```python
 model = Sequential([
     Conv2D(32, (3,3), activation='relu', input_shape=(224,224,3)),
     MaxPooling2D(2,2),
@@ -138,8 +138,8 @@ F1-Score
 
 📊 Results Summary
 Model	Accuracy	Precision	Recall	F1-Score	Training Time
-Custom CNN	88.7%	0.88	0.87	0.87	~25 min
-VGG16 (TL)	94.8%	0.94	0.94	0.94	~30 min
+Custom CNN	  88.7%	0.88	0.87	0.87	~25 min
+VGG16 (TL)	  94.8%	0.94	0.94	0.94	~30 min
 ResNet50 (TL) 🏆	96.2%	0.96	0.96	0.96	~35 min
 MobileNetV2 (TL)	95.5%	0.95	0.95	0.95	~27 min
 
@@ -208,11 +208,10 @@ matplotlib
 seaborn
 scikit-learn
 opencv-python
-👨‍💻 Author
-Zakaria Dahbi
+
+👨‍💻 Author : Zakaria Dahbi
 🎓 Master’s in Computer Science & Artificial Intelligence — Université Ibn Tofail
 💡 Passionate about AI, Machine Learning & Intelligent Systems
-🔗 LinkedIn Profile
 
 📜 License
 This project is licensed under the MIT License.
